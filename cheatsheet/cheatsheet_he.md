@@ -49,3 +49,36 @@
 `"wEIRD Case"[0].upper() + "wEIRD Case"[1:].lower()` => `Weird case`  
 #### הסבר
 החלפת המחרוזת כולה באותיות גדולות או קטנות בהתאם לפונקציה הרצויה.
+
+## תנאים
+#### צורת הבסיס
+`False`\ `True`
+#### דוגמאות
+`number1 >` \ `<` \ `>=` \ `<=`\ `==` \ `!=` `number2`
+`item in list`\ `string`
+`item not in list`\ `string`
+`True and False == False`
+`True and True == True`
+`True or False == True`
+#### הסבר
+לערך בוליאני(תנאי) יש 2 מצבים, אמת או שקר. בעזרתם אפשר ליצור תנאים 
+
+## תנאים
+#### צורת הבסיס
+`if bool:`
+    `code1`
+`elif bool:`
+    `code2`
+`else:`
+    `code3`
+#### דוגמה
+`condition1\condition2 are of type bool`
+
+`if condition1:`
+    `this will run only if condition1 is True`
+`elif condition2:`
+    `this will run only if condition1 is False AND condition2 is True`
+`else:`
+    `this will run if only if condition1 AND condition2 are False`
+#### הסבר
+עם תנאים אפשר לבחור שקטע קוד ירוץ רק במקרים מסויימים
