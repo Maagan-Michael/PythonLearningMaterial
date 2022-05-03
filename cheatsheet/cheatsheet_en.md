@@ -48,3 +48,37 @@ Some string slicing techniques.
 `"wEIRD Case"[0].upper() + "wEIRD Case"[1:].lower()` => `Weird case`  
 #### Explanation
 Changing the entire string into either UPPERCASE or lowercase depending on the respective function.
+
+
+## bool values
+#### Base form
+`False`\ `True`
+#### Examples
+`number1 >` \ `<` \ `>=` \ `<=`\ `==` \ `!=` `number2`
+`item in list`\ `string`
+`item not in list`\ `string`
+`True and False == False`
+`True and True == True`
+`True or False == True`
+#### Explanation
+bool values have 2 states, True or False. They can be used to create conditions.
+
+## conditions
+#### Base form
+`if bool:`
+    `code1`
+`elif bool:`
+    `code2`
+`else:`
+    `code3`
+#### Examples
+`condition1\condition2 are of type bool`
+
+`if condition1:`
+    `this will run only if condition1 is True`
+`elif condition2:`
+    `this will run only if condition1 is False AND condition2 is True`
+`else:`
+    `this will run if only if condition1 AND condition2 are False`
+#### Explanation
+With conditions you can make certein codes run only if certein conditions are met.
