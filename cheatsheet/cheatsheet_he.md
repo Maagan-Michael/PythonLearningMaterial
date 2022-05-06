@@ -64,12 +64,12 @@
 #### צורת הבסיס
 `False`\ `True`
 #### דוגמאות
-`number1 >` \ `<` \ `>=` \ `<=`\ `==` \ `!=` `number2`
-`item in list`\ `string`
-`item not in list`\ `string`
-`True and False == False`
-`True and True == True`
-`True or False == True`
+`number1 >` \ `<` \ `>=` \ `<=`\ `==` \ `!=` `number2`  
+`item in list`\ `string`  
+`item not in list`\ `string`  
+`True and False == False`  
+`True and True == True`  
+`True or False == True`  
 #### הסבר
 לערך בוליאני יש 2 מצבים, אמת או שקר. בעזרתם אפשר ליצור תנאים.
 
