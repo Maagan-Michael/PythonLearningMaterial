@@ -49,8 +49,17 @@ Some string slicing techniques.
 #### Explanation
 Changing the entire string into either UPPERCASE or lowercase depending on the respective function.
 
+## Counting inside string
+#### Base form
+`"string".count("")`
+#### Examples
+`"Hello World!".count("!")` => `1`
+`"This is an example".count("is")` => `2`
+`"wEIrD CAse StrING".lower().count("s")` => `2` #Function chaining to find an occurence inside mixed-case string
+#### Explanation
+Count occurences of substring inside another string.
 
-## bool values
+## Boolean (bool) values
 #### Base form
 `False`\ `True`
 #### Examples
@@ -61,24 +70,28 @@ Changing the entire string into either UPPERCASE or lowercase depending on the r
 `True and True == True`
 `True or False == True`
 #### Explanation
-bool values have 2 states, True or False. They can be used to create conditions.
+Boolean values can have 2 states, either True or False. They can be used to create conditions.
 
-## conditions
+## Conditions
 #### Base form
-`if bool:`
-    `code1`
-`elif bool:`
-    `code2`
-`else:`
-    `code3`
+```python
+if bool:
+    option1
+elif bool:
+    option2
+else:
+    default_option
+```
 #### Examples
-`condition1\condition2 are of type bool`
+```python
+# condition1\condition2 are Boolean
 
-`if condition1:`
-    `this will run only if condition1 is True`
-`elif condition2:`
-    `this will run only if condition1 is False AND condition2 is True`
-`else:`
-    `this will run if only if condition1 AND condition2 are False`
+if condition1:
+    this will run only if condition1 is True
+elif condition2:
+    this will run only if condition1 is False AND condition2 is True
+else:
+    this will run if only if condition1 AND condition2 are False
+```
 #### Explanation
-With conditions you can make certein codes run only if certein conditions are met.
+Conditions allow running certain code under certain conditions.
