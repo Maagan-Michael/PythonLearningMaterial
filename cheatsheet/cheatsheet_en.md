@@ -63,12 +63,12 @@ Count occurences of substring inside another string.
 #### Base form
 `False`\ `True`
 #### Examples
-`number1 >` \ `<` \ `>=` \ `<=`\ `==` \ `!=` `number2`
-`item in list`\ `string`
-`item not in list`\ `string`
-`True and False == False`
-`True and True == True`
-`True or False == True`
+`number1 >` \ `<` \ `>=` \ `<=`\ `==` \ `!=` `number2`  
+`item in list`\ `string`  
+`item not in list`\ `string`  
+`True and False == False`  
+`True and True == True`  
+`True or False == True`  
 #### Explanation
 Boolean values can have 2 states, either True or False. They can be used to create conditions.
 
