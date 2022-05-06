@@ -85,7 +85,7 @@ else:
 ```
 #### דוגמה
 ```python
-# condition1\condition2 are of type bool
+# condition1\condition2 are Boolean
 
 if condition1:
     this will run only if condition1 is True
