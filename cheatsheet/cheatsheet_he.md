@@ -50,6 +50,16 @@
 #### הסבר
 החלפת המחרוזת כולה באותיות גדולות או קטנות בהתאם לפונקציה הרצויה.
 
+## ספירה בתוך מחרוזת
+#### צורת הבסיס
+`"string".count("")`
+#### דוגמאות
+`"Hello World!".count("!")` => `1`
+`"This is an example".count("is")` => `2`
+`"wEIrD CAse StrING".lower().count("s")` => `2` #שרשור של פונקציות לחיפוש תת־מחרוזת בתוך מחרוזת עם אותיות גדולות וקטנות
+#### הסבר
+ספירת תת־מחרוזות בתוך מחרוזת נוספת.
+
 ## ערך בוליאני
 #### צורת הבסיס
 `False`\ `True`
@@ -61,24 +71,28 @@
 `True and True == True`
 `True or False == True`
 #### הסבר
-לערך בוליאני יש 2 מצבים, אמת או שקר. בעזרתם אפשר ליצור תנאים 
+לערך בוליאני יש 2 מצבים, אמת או שקר. בעזרתם אפשר ליצור תנאים.
 
 ## תנאים
 #### צורת הבסיס
-`if bool:`
-    `code1`
-`elif bool:`
-    `code2`
-`else:`
-    `code3`
+```python
+if bool:
+    option1
+elif bool:
+    option2
+else:
+    default_option
+```
 #### דוגמה
-`condition1\condition2 are of type bool`
+```python
+# condition1\condition2 are of type bool
 
-`if condition1:`
-    `this will run only if condition1 is True`
-`elif condition2:`
-    `this will run only if condition1 is False AND condition2 is True`
-`else:`
-    `this will run if only if condition1 AND condition2 are False`
+if condition1:
+    this will run only if condition1 is True
+elif condition2:
+    this will run only if condition1 is False AND condition2 is True
+else:
+    this will run if only if condition1 AND condition2 are False
+```
 #### הסבר
-עם תנאים אפשר לבחור שקטע קוד ירוץ רק במקרים מסויימים
+תנאים מאפשרים לבחור אילו קטעי קוד יופעלו בתנאים מסוימים.
