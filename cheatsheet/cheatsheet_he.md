@@ -54,8 +54,8 @@
 #### צורת הבסיס
 `"string".count("")`
 #### דוגמאות
-`"Hello World!".count("!")` => `1`
-`"This is an example".count("is")` => `2`
+`"Hello World!".count("!")` => `1`  
+`"This is an example".count("is")` => `2`  
 `"wEIrD CAse StrING".lower().count("s")` => `2` #שרשור של פונקציות לחיפוש תת־מחרוזת בתוך מחרוזת עם אותיות גדולות וקטנות
 #### הסבר
 ספירת תת־מחרוזות בתוך מחרוזת נוספת.
@@ -69,7 +69,7 @@
 `item not in list`\ `string`  
 `True and False == False`  
 `True and True == True`  
-`True or False == True`  
+`True or False == True`
 #### הסבר
 לערך בוליאני יש 2 מצבים, אמת או שקר. בעזרתם אפשר ליצור תנאים.
 

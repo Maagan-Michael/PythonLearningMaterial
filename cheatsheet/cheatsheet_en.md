@@ -53,8 +53,8 @@ Changing the entire string into either UPPERCASE or lowercase depending on the r
 #### Base form
 `"string".count("")`
 #### Examples
-`"Hello World!".count("!")` => `1`
-`"This is an example".count("is")` => `2`
+`"Hello World!".count("!")` => `1`  
+`"This is an example".count("is")` => `2`  
 `"wEIrD CAse StrING".lower().count("s")` => `2` #Function chaining to find an occurence inside mixed-case string
 #### Explanation
 Count occurences of substring inside another string.
@@ -68,7 +68,7 @@ Count occurences of substring inside another string.
 `item not in list`\ `string`  
 `True and False == False`  
 `True and True == True`  
-`True or False == True`  
+`True or False == True`
 #### Explanation
 Boolean values can have 2 states, either True or False. They can be used to create conditions.
 
