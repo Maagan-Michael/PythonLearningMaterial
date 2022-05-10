@@ -95,3 +95,20 @@ else:
 ```
 #### Explanation
 Conditions allow running certain code under certain conditions.
+
+## Sorting a list
+#### Base form 
+`list.sort()`
+`sorted(list)`
+#### Examples
+```python
+ls = [4,2,5,1,3]
+ls.sort()
+print(ls)
+ls2 = sorted(ls)
+print(ls2)
+```
+`[5,4,3,2,1]`
+`[5,4,3,2,1]`
+#### Explanation
+When you dont need the original list order use sort(). if you do need it, use sorted() and put the sorted list in a new variable
