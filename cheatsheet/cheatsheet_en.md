@@ -26,6 +26,7 @@ Allows receiving input from the console user for all sorts of operations.
 #### Explanation
 Conversion from string to integer, integer/float to string or integer to float.
 
+# **Strings**
 ## Slicing
 #### Base form
 `"string"[START:END:STEP]`
@@ -59,6 +60,7 @@ Changing the entire string into either UPPERCASE or lowercase depending on the r
 #### Explanation
 Count occurences of substring inside another string.
 
+# **Conditions (if statements)**
 ## Boolean (bool) values
 #### Base form
 `False`\ `True`
@@ -96,6 +98,7 @@ else:
 #### Explanation
 Conditions allow running certain code under certain conditions.
 
+# **Lists**
 ## Sorting a list
 #### Base form 
 `list.sort()`
