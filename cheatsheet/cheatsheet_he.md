@@ -36,7 +36,7 @@
 `"ABCDEFG"[1:-3]` => `BCD`  
 `"ABCDEFGHIJKLM"[:4:-1]` => `MLKJIHGF`
 #### הסבר
-מגוון טכניקות לחיתוך מחרוזות.  
+מגוון טכניקות לחיתוך מחרוזות. עובד גם על רשימות, tuples, sets
 
 &rlm;&lrm;[START::]&rlm; מציינת את מיקום ההתחלה למצביע, ערכים שליליים נספרים מהסוף.  
 &rlm;&lrm;[:END:]&rlm; מציינת את מיקום הסוף למצביע, ערכים שליליים נספרים מהסוף.  
@@ -102,6 +102,29 @@ else:
 
 
 # **רשימות**
+## הוספה\הסרת אובייקט מרשימה
+#### Base form 
+`list.append()`
+`list.pop()`
+#### Examples
+```python
+ls = ["Tony", "Ana", "Dan", "Dvora"]
+ls.append("Hanna")
+print(ls)
+```
+`["Tony", "Ana", "Dan", "Dvora", "Hanna"]`
+
+```python
+ls = ["Tony", "Ana", "Dan", "Dvora"]
+index = ls.index("Ana")
+ls.pop(index)
+print(ls)
+```
+`["Tony", "Dan", "Dvora"]`
+#### Explanation
+.append(object) מוסיף את האובייקט שהוכנס לסוף הרשימה כמו שרואים בדוגמא.  
+.pop(int) מסיר את האובייקט שנמצע במיקום שהוכנס, יש אפשרות להשתמש עם .index() בשביל להסיר אובייקט ספציפי מהרשימה חשוב לזכור שיש להכניס רק מספרים.
+
 ## סידור רשימה
 #### צורת הבסיס
 `list.sort()`

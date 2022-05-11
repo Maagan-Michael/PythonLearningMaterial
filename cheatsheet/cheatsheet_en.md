@@ -1,5 +1,6 @@
 # MM Python cheat sheet
 
+# **Base**
 ## Output
 #### Base form
 `print()`
@@ -35,7 +36,7 @@ Conversion from string to integer, integer/float to string or integer to float.
 `"ABCDEFG"[1:-3]` => `BCD`  
 `"ABCDEFGHIJKLM"[:4:-1]` => `MLKJIHGF`
 #### Explanation
-Some string slicing techniques.  
+Some string slicing techniques. works for lists, tuples and sets aswell  
 [START::] Represents the pointer location to begin with, negative numbers are counted from the end.  
 [:END:] Represents the pointer location to end with, negative numbers are counted from the end.  
 [::STEP] Represents the number of places for a step, negative numbers are reversing the order.  
@@ -99,6 +100,29 @@ else:
 Conditions allow running certain code under certain conditions.
 
 # **Lists**
+## Adding\Removing an object from a list
+#### Base form 
+`list.append()`
+`list.pop()`
+#### Examples
+```python
+ls = ["Tony", "Ana", "Dan", "Dvora"]
+ls.append("Hanna")
+print(ls)
+```
+`["Tony", "Ana", "Dan", "Dvora", "Hanna"]`
+
+```python
+ls = ["Tony", "Ana", "Dan", "Dvora"]
+index = ls.index("Ana")
+ls.pop(index)
+print(ls)
+```
+`["Tony", "Dan", "Dvora"]`
+#### Explanation
+.append(object) adds the object you put in it to the end of the list as is shown.  
+.pop(int) pops the item at the specified index, can be used with .index() to remove a specific item from the list
+
 ## Sorting a list
 #### Base form 
 `list.sort()`
@@ -115,7 +139,9 @@ print(ls)
 ls = [4,2,5,1,3]
 ls2 = sorted(ls)
 print(ls2)
+print(ls)
 ```
-`[5,4,3,2,1]`
+`[5,4,3,2,1]`  
+`[4,2,5,1,3]`
 #### Explanation
 When you dont need the original list order use sort(). if you do need it, use sorted() and put the sorted list in a new variable
