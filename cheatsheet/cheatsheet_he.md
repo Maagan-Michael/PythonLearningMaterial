@@ -150,3 +150,29 @@ print(ls)
  סידור הרשימה. השתמשו ב-sort כאשר אין לכם צורך בסדר המקורי שהיה לרשימה.  
 
  אם יש צורך, אז השתמשו ב-sorted ושימו את הרשימה המסודרת שנוצרה במשתנה חדש
+
+## ערך מינימלי\מקסימלי וסכום הערכים מרשימה
+#### צורת הבסיס 
+`sum(list)`
+`min(list)`
+`max(list)`
+
+#### דוגמאות
+```python
+ls = [13,4,2,51,-1,3]
+max_number = max(ls)
+min_number = min(ls)
+sum_of_list = sum(ls)
+print(max_number)
+print(min_number)
+print(sum_of_list)
+```
+51  
+-1
+72
+#### Explanation
+3 פונקציות שימושיות שאפשר לבצע על רשימות
+
+## מתודות אחרות של רשימות
+[מותודות של רשימות](https://www.programiz.com/python-programming/methods/list)
+

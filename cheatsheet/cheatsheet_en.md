@@ -145,3 +145,28 @@ print(ls)
 `[4,2,5,1,3]`
 #### Explanation
 When you dont need the original list order use sort(). if you do need it, use sorted() and put the sorted list in a new variable
+
+## SUM/MIN/MAX values from a list
+#### Base form 
+`sum(list)`
+`min(list)`
+`max(list)`
+
+#### Examples
+```python
+ls = [13,4,2,51,-1,3]
+max_number = max(ls)
+min_number = min(ls)
+sum_of_list = sum(ls)
+print(max_number)
+print(min_number)
+print(sum_of_list)
+```
+51  
+-1
+72
+#### Explanation
+these are 3 useful functions you can use on a list
+
+## other methods and functions
+[Medthods for lists](https://www.programiz.com/python-programming/methods/list)
