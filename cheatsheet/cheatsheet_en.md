@@ -61,6 +61,10 @@ Changing the entire string into either UPPERCASE or lowercase depending on the r
 #### Explanation
 Count occurences of substring inside another string.
 
+## other methods for strings
+[Medthods for strings](https://www.programiz.com/python-programming/methods/string)
+
+
 # **Conditions (if statements)**
 ## Boolean (bool) values
 #### Base form
@@ -163,10 +167,10 @@ print(min_number)
 print(sum_of_list)
 ```
 51  
--1
+-1  
 72
 #### Explanation
 these are 3 useful functions you can use on a list
 
-## other methods and functions
+## other methods for lists
 [Medthods for lists](https://www.programiz.com/python-programming/methods/list)
