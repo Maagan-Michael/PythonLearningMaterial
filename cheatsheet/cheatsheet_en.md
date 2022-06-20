@@ -35,8 +35,10 @@ Conversion from string to integer, integer/float to string or integer to float.
 `"ABCD"[1:3]` => `BC`  
 `"ABCDEFG"[1:-3]` => `BCD`  
 `"ABCDEFGHIJKLM"[:4:-1]` => `MLKJIHGF`
-**Explanation**  
-Some string slicing techniques. works for lists, tuples and sets aswell  
+
+#### Explanation
+Some string slicing techniques works for lists, tuples and sets as well.  
+
 [START::] Represents the pointer location to begin with, negative numbers are counted from the end.  
 [:END:] Represents the pointer location to end with, negative numbers are counted from the end.  
 [::STEP] Represents the number of places for a step, negative numbers are reversing the order.  
@@ -57,9 +59,14 @@ Changing the entire string into either UPPERCASE or lowercase depending on the r
 **Example**  s
 `"Hello World!".count("!")` => `1`  
 `"This is an example".count("is")` => `2`  
-`"wEIrD CAse StrING".lower().count("s")` => `2` #Function chaining to find an occurence inside mixed-case string
-**Explanation**  
-Count occurences of substring inside another string.
+
+`"wEIrD CAse StrING".lower().count("s")` => `2` #Function chaining to find an occurrence inside mixed-case string
+#### Explanation
+Count occurrences of substring inside another string.
+
+## Additional methods for strings
+[Methods for strings](https://www.programiz.com/python-programming/methods/string)
+
 
 ## other methods for strings
 [Medthods for strings](https://www.programiz.com/python-programming/methods/string)
@@ -131,7 +138,9 @@ print(ls)
 **Base Form**   
 `list.sort()`
 `sorted(list)`
-**Example**  s
+
+#### Examples
+#####
 ```python
 ls = [4,2,5,1,3]
 ls.sort()
@@ -147,16 +156,18 @@ print(ls)
 ```
 `[5,4,3,2,1]`  
 `[4,2,5,1,3]`
-**Explanation**  
-When you dont need the original list order use sort(). if you do need it, use sorted() and put the sorted list in a new variable
 
-## SUM/MIN/MAX values from a list
-**Base Form**   
-`sum(list)`
-`min(list)`
+#### Explanation
+When you don't need the original list order use `sort()`.  
+If you do need it, use `sorted()` and put the sorted list in a new variable.
+
+## Sum\Min\Max values from a list
+#### Base form 
+`sum(list)`  
+`min(list)`  
 `max(list)`
 
-**Example**  s
+#### Examples
 ```python
 ls = [13,4,2,51,-1,3]
 max_number = max(ls)
@@ -166,11 +177,14 @@ print(max_number)
 print(min_number)
 print(sum_of_list)
 ```
-51  
--1  
-72
-**Explanation**  
-these are 3 useful functions you can use on a list
 
-## other methods for lists
-[Medthods for lists](https://www.programiz.com/python-programming/methods/list)
+
+`51`  
+`-1`  
+`72`
+#### Explanation
+Those 3 functions can be used on lists to either find the maximum value,  
+the minimum value or calculate the sum of all the values of the list.
+
+## Other methods for lists
+[Methods for lists](https://www.programiz.com/python-programming/methods/list)
